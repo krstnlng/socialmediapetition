@@ -7,12 +7,5 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'marks';
-  email = 'marks@fahrzeugpflege.com';
-
-  constructor(private router: Router) {}
-
-  public redirectToHome() {
-    this.router.navigate(['/']);
-  }
+  email = 'davids@socialmediapetition.com';
 }
