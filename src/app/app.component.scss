@@ -1,0 +1,110 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: baseline;
+}
+
+li .contact {
+  flex-direction: column;
+}
+
+li span {
+  flex-shrink: 0;
+  min-width: 30px;
+}
+
+.logo {
+  cursor: pointer;
+  margin: 15px 0;
+}
+
+.container-body {
+  max-width: 960px;
+  background-color: rgb(234, 234, 234);
+  font-family: "Jost"; // "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.border {
+  border-radius: 0.75rem;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.container-header {
+  display: flex;
+  margin: 10px 0;
+  gap: 20px;
+  justify-content: space-between;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 750px) {
+  .container-header {
+    gap: 5px;
+  }
+  // img {
+  // }
+  .border {
+    // width: min-content;
+  }
+  h2 {
+    display: block;
+  }
+  li {
+    flex-direction: column;
+  }
+  .header-content {
+    display: -webkit-inline-box;
+    -webkit-box-align: center;
+  }
+  h3 {
+    margin-top: 15px;
+  }
+  .logo {
+    width: 90px;
+  }
+  .left-div {
+    align-self: center;
+  }
+}
+.left-div {
+  flex: 0 0 auto; /* Das linke div bleibt fest und ändert seine Größe nicht */
+  float: left;
+}
+
+img {
+  display: block; /* Das Bild wird als Blockelement behandelt */
+  margin: 0 !important;
+}
+
+.right-div {
+  flex: 1; /* Das rechte div dehnt sich aus, um den verfügbaren Platz zu füllen */
+  margin: auto 20px;
+  float: right;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  gap: 1.38889rem;
+  border-bottom: 1px solid rgba(48, 48, 48, 0.2);
+  padding: 0.22222rem 0 1rem;
+  margin-bottom: 1.05556rem;
+  font-size: 0.83333rem;
+  line-height: 1.38889rem;
+  width: 100%;
+}
+
+.ion-social-instagram:before {
+  color: gray;
+}
+
+.container-footer {
+  width: 100%;
+}

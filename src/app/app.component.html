@@ -1,0 +1,150 @@
+<div class="mat-typography"> <!--  style="font-family: sans-serif;" -->
+  <header class="header">
+    <div class="container-header">
+      <div class="left-div">
+        <img src="assets/img/logo.png" alt="Logo" class="logo" (click)="redirectToHome()" title="Startseite">
+      </div>
+      <div class="right-div">
+        <ul class="data">
+          <li>
+            <!-- <em>
+            </em> -->
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="11" height="11" viewBox="0 0 50 50">
+              <path
+                d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 24.984375 6.9863281 A 1.0001 1.0001 0 0 0 24 8 L 24 22.173828 A 3 3 0 0 0 22 25 A 3 3 0 0 0 22.294922 26.291016 L 16.292969 32.292969 A 1.0001 1.0001 0 1 0 17.707031 33.707031 L 23.708984 27.705078 A 3 3 0 0 0 25 28 A 3 3 0 0 0 28 25 A 3 3 0 0 0 26 22.175781 L 26 8 A 1.0001 1.0001 0 0 0 24.984375 6.9863281 z">
+              </path>
+            </svg>
+            <b>&nbsp;Mo - Fr: </b>
+            &nbsp;08:00 - 17:00 Uhr,&nbsp;
+            <b> Sa: </b>
+            &nbsp;09:00 - 13:00 Uhr |&nbsp; -->
+            <div class="header-content">
+              <img width="12" height="12" src="https://img.icons8.com/fluency-systems-regular/48/marker--v1.png"
+                alt="marker--v1" />
+              &nbsp;Friesenring 10, 30853 Langenhagen &nbsp;
+            </div>
+            <div class="header-content">
+              <img width="12" height="12" src="https://img.icons8.com/ios/50/phone--v1.png" alt="phone--v1" />
+              &nbsp;+49&nbsp;177&nbsp;9367387 &nbsp;
+            </div>
+            <div class="header-content">
+              <img width="12" height="12" src="https://img.icons8.com/ios/50/mail.png" alt="mail" />
+              &nbsp;{{email}} &nbsp;
+            </div>
+            <!-- <div class="item social">
+              <a title="@marksfahrzeugpflege (Instagram)" href="https://www.instagram.com/marksfahrzeugpflege"
+                target="_blank"><i class="icon ion-social-instagram"></i></a>
+            </div> -->
+          </li>
+        </ul>
+        <div style="text-align: center; text-align-last: center;">
+          <!-- <h2> -->
+          <!-- Mit Professionalität zum neuen Glanz -->
+          M&nbsp;I&nbsp;T &nbsp;
+          P&nbsp;R&nbsp;O&nbsp;F&nbsp;E&nbsp;S&nbsp;S&nbsp;I&nbsp;O&nbsp;N&nbsp;A&nbsp;L&nbsp;I&nbsp;T&nbsp;Ä&nbsp;T
+          &nbsp;
+          Z&nbsp;U&nbsp;M&nbsp;&nbsp;&nbsp;N&nbsp;E&nbsp;U&nbsp;E&nbsp;N&nbsp;&nbsp;&nbsp;G&nbsp;L&nbsp;A&nbsp;N&nbsp;Z
+          <!-- P R O F E S S I O N E L L E &nbsp; F A H R Z E U G A U F B E R E I T U N G -->
+          <!-- </h2> -->
+          <!-- <h3>Mit Professionalität zum neuen Glanz</h3> -->
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container-body">
+    <div class="border">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+  <div class="footer-clean">
+    <footer>
+      <div class="container-footer">
+        <div class="row">
+          <div class="col-sm-3">
+            <h3>Öffnungszeiten</h3>
+            <ul>
+              <li>
+                <div>
+                  <span style="display: inline-block;">Mo</span> 08:00–17:00
+                </div>
+              </li>
+              <li>
+                <div>
+                  <span style="display: inline-block;">Di</span> 08:00–17:00
+                </div>
+              </li>
+              <li>
+                <div>
+                  <span style="display: inline-block;">Mi</span> 08:00–17:00
+                </div>
+              </li>
+              <li>
+                <div>
+                  <span style="display: inline-block;">Do</span> 08:00–17:00
+                </div>
+              </li>
+              <li>
+                <div>
+                  <span style="display: inline-block;">Fr</span> 08:00–17:00
+                </div>
+              </li>
+              <li>
+                <div>
+                  <span style="display: inline-block;">Sa</span> 09:00–13:00
+                </div>
+              </li>
+              <li>
+                <div>
+                  <span style="display: inline-block;">So</span> Geschlossen
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-5 col-md-4">
+            <h3>Kontakt</h3>
+            <ul>
+              <li style="flex-direction: column;">
+                <div class="contact">
+                  <div>
+                    Adresse:
+                    <address>
+                      <a target="_blank"
+                        href="https://www.google.de/maps/place/Friesenring+10,+30855+Langenhagen/@52.4414567,9.7202546,17z/data=!3m1!4b1!4m6!3m5!1s0x47b072f9e881d71f:0x10780f5888ff64b8!8m2!3d52.4414567!4d9.7228295!16s%2Fg%2F11bw4068d5?entry=ttu">
+                        &nbsp;&nbsp;Friesenring 10, 30853 Langenhagen
+                      </a>
+                    </address>
+                  </div>
+                </div>
+              </li>
+              <li style="flex-direction: column;">
+                Telefon:
+                <address>
+                  <a href="tel:+491779367387">
+                    &nbsp;&nbsp;+49 177 9367387
+                  </a>
+                </address>
+              </li>
+              <li style="flex-direction: column;">
+                Email: <a href="mailto:marks@fahrzeugpflege.de">
+                  &nbsp;&nbsp;{{email}}
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-2">
+            <h3>Rechtliches</h3>
+            <ul>
+              <li><a routerLink="/impressum" target="_blank">Impressum</a></li>
+              <!-- <li><a href="/datenschutz">Datenschutz</a></li> -->
+            </ul>
+            <div class="col-lg-3 item social">
+              <a title="@marksfahrzeugpflege (Instagram)" href="https://www.instagram.com/marksfahrzeugpflege"
+                target="_blank"><i class="icon ion-social-instagram"></i></a>
+              <p class="copyright">MARK'S Fahrzeugpflege © 2019</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
